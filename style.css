@@ -14,11 +14,11 @@ h1:hover{
   text-shadow: 1px 1px 3px white;
 }
 p{
-  width: 1000px;
-  padding: 45px;
-  margin: 60px auto;
-  display: flex;
-  align-items: center; 
+  width: 80%;
+  max-width: 1000px;
+
+  margin: 20px auto;
+  line-height: 1.7;
 }
 a:link {
   color: #FFFFFF;
@@ -68,18 +68,21 @@ nav {
   box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
 }
 ol{
+  max-width: 75%;
   background: #0B1059;
-  padding: 50px;
+  padding: 40px;
   margin: 0;
   list-style: none;
 }
 ol li {
+  max-width: 95%;
   background: #0B1059;
   font-family: 'Lekton', sans-serif;
   padding: 15px 0;
   font-size: 40px;        
   font-weight: 700;       
   color: #17B9FF;
+  line-height: 1.7;
 }
 
 ol li a{
@@ -90,6 +93,7 @@ ol li ul li {
   color: white;
   font-family: 'Quicksand',sans-serif;
   font-size : 24px;
+    line-height: 1.7;
 }
 .topics li{
   color: #27F595;
